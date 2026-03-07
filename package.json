@@ -1,0 +1,31 @@
+{
+  "name": "devopsprojecttestdatamanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashyr190/devopsprojecttestdatamanagementsystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yashyr190/devopsprojecttestdatamanagementsystem/issues"
+  },
+  "homepage": "https://github.com/Yashyr190/devopsprojecttestdatamanagementsystem#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}

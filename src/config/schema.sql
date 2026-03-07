@@ -1,0 +1,7 @@
+CREATE TABLE testdata (
+ id SERIAL PRIMARY KEY,
+ name VARCHAR(100),
+ version INTEGER,
+ data JSONB,
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
